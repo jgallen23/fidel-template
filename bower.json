@@ -8,6 +8,9 @@
   "main": "dist/fidel-template.js",
   "dependencies": {
     "fidel": "~2.2.0",
-    "template": "~0.1.1"
+    "template": "~0.2.0"
+  },
+  "devDependencies": {
+    "assert": "*"
   }
 }
