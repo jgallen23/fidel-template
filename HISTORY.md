@@ -1,4 +1,10 @@
 
+0.2.0 / 2013-05-24 
+==================
+
+  * [lib] use template's noConflict
+  * [grunt|bower] updated to grunt 0.4 and bower.json
+
 0.1.0 / 2013-01-17 
 ==================
 
