@@ -1,7 +1,7 @@
 {
   "name": "fidel-template",
   "description": "A fidel plugin to render a clientside template",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/jgallen23/fidel-template",
   "license": "MIT",
   "copyright": "Greg Allen",

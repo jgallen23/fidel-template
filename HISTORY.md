@@ -1,4 +1,9 @@
 
+0.2.1 / 2013-05-25 
+==================
+
+  * [lib] added support for inline templates via the this.template property
+
 0.2.0 / 2013-05-24 
 ==================
 
