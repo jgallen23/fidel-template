@@ -4,7 +4,7 @@
 suite('fidel-template', function() {
   
   beforeEach(function() {
-    $('#fixture').html('<div class="widget"></div>');
+    $('#fixture').html('<div class="widget"></div><div class="widget2"></div>');
   });
 
   test('exists', function() {
@@ -38,6 +38,15 @@ suite('fidel-template', function() {
     assert.equal(el.text(), 'Hello Bob');
   });
 
-  test('render template to a specific element');
+  test('render template to a specific element', function() {
+    $.declare('widget', {
+      template: 'Hello <%= name %>',
+      init: function() {
+        this.render({ name: 'Bob' }, $('#fixture .widget2'));
+      }
+    });
+    $('#fixture .widget').widget();
+    assert.equal($('#fixture .widget2').text(), 'Hello Bob');
+  });
 
 });
