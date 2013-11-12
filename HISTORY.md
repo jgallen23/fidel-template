@@ -1,4 +1,9 @@
 
+0.3.0 / 2013-11-12 
+==================
+
+  * Added support to render template to a specific element.
+
 0.2.1 / 2013-05-25 
 ==================
 
